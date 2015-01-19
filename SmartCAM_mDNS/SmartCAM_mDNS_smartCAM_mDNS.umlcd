@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_blpBYHbjEeS2Ip8eRgNunA">
+  <modelElement href="SmartCAM_mDNS.uml#_GOePgHbjEeS2Ip8eRgNunA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_feCPQXbjEeS2Ip8eRgNunA" targetItem="_feFSsXbjEeS2Ip8eRgNunA" sourceItem="_feCPQHbjEeS2Ip8eRgNunA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_feCPQHbjEeS2Ip8eRgNunA" sourceConnectionVisual="_feCPQXbjEeS2Ip8eRgNunA" text="Test program&#xA;     * @param args The input parameters&#xA;     * &#xA;     * Command Line:&#xA;     * dnssd -E                         (Enumerate recommended registration domains)&#xA;     * dnssd -F                             (Enumerate recommended browsing domains)&#xA;     * dnssd -B        &lt;Type> [&lt;Domain>]             (Browse for services instances)&#xA;     * dnssd -L &lt;Name> &lt;Type> &lt;Domain>                  (Look up a service instance)&#xA;     * dnssd -R &lt;Name> &lt;Type> &lt;Domain> &lt;Port> &lt;Host> [&lt;TXT>...] (Register a service)&#xA;     * dnssd -Z        &lt;Type> &lt;Domain>          (Output results in Zone File format)&#xA;     * dnssd -Q        &lt;FQDN> &lt;rrtype> &lt;rrclass> (Generic query for any record type)&#xA;     * dnssd -C        &lt;FQDN> &lt;rrtype> &lt;rrclass>   (Query; reconfirming each result)" item="_feFSsXbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_HAvZ-HbjEeS2Ip8eRgNunA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_feFSkHbjEeS2Ip8eRgNunA" name="Mydnssd">
+    <modelElement href="SmartCAM_mDNS.uml#_GbD6AHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_feFSkXbjEeS2Ip8eRgNunA" position="50.0,50.0" size="576.0,370.0"/>
+    <stereotypes xmi:id="_feFSknbjEeS2Ip8eRgNunA" name="LegacyStyledElement">
+      <modelElement href="SmartCAM_mDNS.uml#_GbD6AXbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_feFSk3bjEeS2Ip8eRgNunA" name="Annotations">
+      <modelElement href="SmartCAM_mDNS.uml#_GbG9WXbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_feFSlHbjEeS2Ip8eRgNunA" label="+"/>
+    <attributes xmi:id="_feFSlXbjEeS2Ip8eRgNunA" name="type" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G-sLhnbjEeS2Ip8eRgNunA"/>
+      <visibility xmi:id="_feFSlnbjEeS2Ip8eRgNunA" label="+"/>
+      <cardinality xmi:id="_feFSl3bjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+      <type xmi:id="_feFSmHbjEeS2Ip8eRgNunA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_feFSmXbjEeS2Ip8eRgNunA" name="dclass" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G-sLh3bjEeS2Ip8eRgNunA"/>
+      <visibility xmi:id="_feFSmnbjEeS2Ip8eRgNunA" label="+"/>
+      <cardinality xmi:id="_feFSm3bjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+      <type xmi:id="_feFSnHbjEeS2Ip8eRgNunA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_feFSnXbjEeS2Ip8eRgNunA" defaultValue="2000" name="WAITING_TIME_RESPONSE" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G-sLiHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_feFSnnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G-sLinbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_feFSn3bjEeS2Ip8eRgNunA" label="-"/>
+      <cardinality xmi:id="_feFSoHbjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+      <type xmi:id="_feFSoXbjEeS2Ip8eRgNunA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_feFSonbjEeS2Ip8eRgNunA" defaultValue="&quot;_sdtvwcam._tcp.local&quot;" name="SDTVWCAM_TCP_LOCAL" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G-sLi3bjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_feFSo3bjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G-vO0XbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_feFSpHbjEeS2Ip8eRgNunA" label="-"/>
+      <cardinality xmi:id="_feFSpXbjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+      <type xmi:id="_feFSpnbjEeS2Ip8eRgNunA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_feFSp3bjEeS2Ip8eRgNunA" defaultValue="&quot;------------------------------------------------------------------------------\n&quot; +&#xA;    &quot;| Command Line: dnssd &lt;option> [parameters]                                  |\n&quot; +&#xA;    &quot;------------------------------------------------------------------------------\n&quot; +&#xA;    &quot;dnssd -E                         (Enumerate recommended registration domains)\n&quot; +&#xA;    &quot;dnssd -F                             (Enumerate recommended browsing domains)\n&quot; +&#xA;    &quot;dnssd -B        &lt;Type> [&lt;Domain>]             (Browse for services instances)\n&quot; +&#xA;    &quot;dnssd -L &lt;Name> &lt;Type> [&lt;Domain>]                (Look up a service instance)\n&quot; +&#xA;    &quot;dnssd -R &lt;Name> &lt;Type> &lt;Domain> &lt;Port> &lt;Host> [&lt;TXT>...] (Register a service)\n&quot; +&#xA;    &quot;dnssd -Q &lt;FQDN> &lt;rrtype> &lt;rrclass>        (Generic query for any record type)\n&quot; +&#xA;    &quot;dnssd -G v4/v6/v4v6 &lt;Hostname>         (Get address information for hostname)\n&quot; +&#xA;    &quot;dnssd -V           (Get version of currently running daemon / system service)\n&quot; +&#xA;    &quot;dnssd -W  &lt;timeout>    (Specific query for _sdtvwcam._tcp:local. record PTR class in)\n&quot; +    &#xA;    &quot;------------------------------------------------------------------------------&quot;" name="COMMAND_LINE" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G-vO0nbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_feFSqHbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G-vO1HbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_feFSqXbjEeS2Ip8eRgNunA" label="-"/>
+      <cardinality xmi:id="_feFSqnbjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+      <type xmi:id="_feFSq3bjEeS2Ip8eRgNunA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_feFSrHbjEeS2Ip8eRgNunA" name="Mydnssd">
+      <modelElement href="SmartCAM_mDNS.uml#_GbD6AnbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_yNrlQHbjEeS2Ip8eRgNunA"/>
+      <keywords xmi:id="_feFSrXbjEeS2Ip8eRgNunA" keyword="create"/>
+      <visibility xmi:id="_feFSrnbjEeS2Ip8eRgNunA" label="#"/>
+      <outParameters xmi:id="_feFSr3bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_GbD6BXbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_feFSsHbjEeS2Ip8eRgNunA" name="Mydnssd">
+          <modelElement href="SmartCAM_mDNS.uml#_GbD6AHbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_feFSsXbjEeS2Ip8eRgNunA" comments="_feCPQHbjEeS2Ip8eRgNunA" targetConnectionVisual="_feCPQXbjEeS2Ip8eRgNunA" name="main" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_GbD6BnbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_yNrlQXbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_feFSsnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_GbG9UHbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_feFSs3bjEeS2Ip8eRgNunA" label="+"/>
+      <parameters xmi:id="_feFStHbjEeS2Ip8eRgNunA" name="args">
+        <modelElement href="SmartCAM_mDNS.uml#_GbD6B3bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_feFStXbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_feFStnbjEeS2Ip8eRgNunA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_feFSt3bjEeS2Ip8eRgNunA" name="printHelp" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_GbG9VHbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_yNrlQnbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_feFSuHbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_GbG9VnbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_feFSuXbjEeS2Ip8eRgNunA" label="-"/>
+      <parameters xmi:id="_feFSunbjEeS2Ip8eRgNunA" name="message">
+        <modelElement href="SmartCAM_mDNS.uml#_GbG9VXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_feFSu3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_feFSvHbjEeS2Ip8eRgNunA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_feFSvXbjEeS2Ip8eRgNunA" name="printArray" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G9BXkHbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_yNrlQ3bjEeS2Ip8eRgNunA"/>
+      <visibility xmi:id="_feFSvnbjEeS2Ip8eRgNunA" label="-"/>
+      <parameters xmi:id="_feFSv3bjEeS2Ip8eRgNunA" name="array">
+        <modelElement href="SmartCAM_mDNS.uml#_G9BXkXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_feFSwHbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_feFSwXbjEeS2Ip8eRgNunA" name="Object">
+          <modelElement href="SmartCAM_mDNS.uml#_G5Zb1nbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_feFSwnbjEeS2Ip8eRgNunA" name="format">
+        <modelElement href="SmartCAM_mDNS.uml#_G9BXknbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_feFSw3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_feFSxHbjEeS2Ip8eRgNunA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

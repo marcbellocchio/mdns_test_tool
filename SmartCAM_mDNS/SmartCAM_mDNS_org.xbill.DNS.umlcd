@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_blHc8HbjEeS2Ip8eRgNunA">
+  <modelElement href="SmartCAM_mDNS.uml#_GK3h4HbjEeS2Ip8eRgNunA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eRrw4XbjEeS2Ip8eRgNunA" targetItem="_eSHO1nbjEeS2Ip8eRgNunA" sourceItem="_eRrw4HbjEeS2Ip8eRgNunA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eRu0MXbjEeS2Ip8eRgNunA" targetItem="_eSHO4XbjEeS2Ip8eRgNunA" sourceItem="_eRu0MHbjEeS2Ip8eRgNunA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eRx3gXbjEeS2Ip8eRgNunA" targetItem="_eSHPGXbjEeS2Ip8eRgNunA" sourceItem="_eRx3gHbjEeS2Ip8eRgNunA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eSHOsHbjEeS2Ip8eRgNunA" sourceAnchor="591.0,203.0" targetAnchor="30.0,54.0" target="_eXBj5HbjEeS2Ip8eRgNunA" source="_eSHOuXbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_HBQ-ZHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eY7oZHbjEeS2Ip8eRgNunA" position="690.0,690.0"/>
+    <bendpoints xmi:id="_eu7GgHbjEeS2Ip8eRgNunA" sourceX="81" targetY="258"/>
+    <stereotypes xmi:id="_eSHOsXbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_HBQ-ZnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eSHOsnbjEeS2Ip8eRgNunA" text="">
+      <visualProperties xmi:id="_eu7GgnbjEeS2Ip8eRgNunA" position="2.5,-139.74999999999997"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eSHOs3bjEeS2Ip8eRgNunA" aggregationKind="NONE" name="">
+      <modelElement href="SmartCAM_mDNS.uml#_HBQ-ZXbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_eu7GgXbjEeS2Ip8eRgNunA" position="24.5,-55.5"/>
+      <visibility xmi:id="_eSHOtHbjEeS2Ip8eRgNunA" label="+"/>
+      <cardinality xmi:id="_eSHOtXbjEeS2Ip8eRgNunA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eSHOtnbjEeS2Ip8eRgNunA" aggregationKind="NONE" name="EMPTY_RECORDS" navigable="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G9KhgHbjEeS2Ip8eRgNunA"/>
+      <visualProperties xmi:id="_eu7Gg3bjEeS2Ip8eRgNunA" position="2.5,0.9999999999999716"/>
+      <visibility xmi:id="_eSHOt3bjEeS2Ip8eRgNunA" label="+"/>
+      <cardinality xmi:id="_eSHOuHbjEeS2Ip8eRgNunA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eRrw4HbjEeS2Ip8eRgNunA" sourceConnectionVisual="_eRrw4XbjEeS2Ip8eRgNunA" text="Tests if the response message answers all of the questions within the query message.&#xA;     * &#xA;     * @param query The query message&#xA;     * @param response The response message&#xA;     * @return True if the response message answers all of the questions in the query message." item="_eSHO1nbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_HAjMsnbjEeS2Ip8eRgNunA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eRu0MHbjEeS2Ip8eRgNunA" sourceConnectionVisual="_eRu0MXbjEeS2Ip8eRgNunA" text="Tests if the response message answers any of the questions within the query message.&#xA;     * &#xA;     * @param query The query message&#xA;     * @param response The response message&#xA;     * @return True if the response message answers any of the questions in the query message." item="_eSHO4XbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_HAjMs3bjEeS2Ip8eRgNunA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eRx3gHbjEeS2Ip8eRgNunA" sourceConnectionVisual="_eRx3gXbjEeS2Ip8eRgNunA" text="Compares the 2 messages and determines if they are equal.&#xA;     * &#xA;     * @param message1&#xA;     * @param message2&#xA;     * @return True if the messages are equal" item="_eSHPGXbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_HAjMtHbjEeS2Ip8eRgNunA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eSHOuXbjEeS2Ip8eRgNunA" name="MulticastDNSUtils" associationsOut="_eSHOsHbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_GQnkkHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eSHOunbjEeS2Ip8eRgNunA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eSHOu3bjEeS2Ip8eRgNunA" name="LegacyStyledElement">
+      <modelElement href="SmartCAM_mDNS.uml#_GQ21IHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eSHOvHbjEeS2Ip8eRgNunA" name="Annotations">
+      <modelElement href="SmartCAM_mDNS.uml#_GRnqIHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eSHOvXbjEeS2Ip8eRgNunA" label="+"/>
+    <attributes xmi:id="_eSHOvnbjEeS2Ip8eRgNunA" defaultValue="new Record[0]" name="EMPTY_RECORDS" staticAttribute="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G9KhgHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHOv3bjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G9Nk0XbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHOwHbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G9Nk03bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHOwXbjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G9Nk0XbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHOwnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G9Nk03bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHOw3bjEeS2Ip8eRgNunA" label="+"/>
+      <cardinality xmi:id="_eSHOxHbjEeS2Ip8eRgNunA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_eSHOxXbjEeS2Ip8eRgNunA" name="Record">
+        <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eSHOxnbjEeS2Ip8eRgNunA" name="getHostName" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_GQ__EHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHOx3bjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_GRYZkXbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHOyHbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHOyXbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_GRYZkHbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHOynbjEeS2Ip8eRgNunA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eSHOy3bjEeS2Ip8eRgNunA" name="getLocalAddresses" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_GRYZknbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHOzHbjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_GRbc4nbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHOzXbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_GRbc43bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHOznbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHOz3bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_GRbc4HbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO0HbjEeS2Ip8eRgNunA" name="InetAddress">
+          <modelElement href="SmartCAM_mDNS.uml#_G0fGoHbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eSHO0XbjEeS2Ip8eRgNunA" name="getMachineName" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_GRegMHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHO0nbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_GRegMnbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHO03bjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHO1HbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_GRegMXbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO1XbjEeS2Ip8eRgNunA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eSHO1nbjEeS2Ip8eRgNunA" comments="_eRrw4HbjEeS2Ip8eRgNunA" targetConnectionVisual="_eRrw4XbjEeS2Ip8eRgNunA" name="answersAll" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5EEoHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHO13bjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEpHbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHO2HbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHO2XbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEo3bjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO2nbjEeS2Ip8eRgNunA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHO23bjEeS2Ip8eRgNunA" name="query">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEoXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO3HbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO3XbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSHO3nbjEeS2Ip8eRgNunA" name="response">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEonbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO33bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO4HbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHO4XbjEeS2Ip8eRgNunA" comments="_eRu0MHbjEeS2Ip8eRgNunA" targetConnectionVisual="_eRu0MXbjEeS2Ip8eRgNunA" name="answersAny" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5EEqXbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHO4nbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EErXbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHO43bjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHO5HbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EErHbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO5XbjEeS2Ip8eRgNunA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHO5nbjEeS2Ip8eRgNunA" name="query">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEqnbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO53bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO6HbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSHO6XbjEeS2Ip8eRgNunA" name="response">
+        <modelElement href="SmartCAM_mDNS.uml#_G5EEq3bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO6nbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO63bjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHO7HbjEeS2Ip8eRgNunA" name="clone" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5HH8HbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHO7XbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH83bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHO7nbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHO73bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH8nbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO8HbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHO8XbjEeS2Ip8eRgNunA" name="record">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH8XbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO8nbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO83bjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHO9HbjEeS2Ip8eRgNunA" name="extractRecords" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5HH9nbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHO9XbjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH-3bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHO9nbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHO93bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH-XbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHO-HbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHO-XbjEeS2Ip8eRgNunA" name="message">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH93bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO-nbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO-3bjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSHO_HbjEeS2Ip8eRgNunA" name="sections">
+        <modelElement href="SmartCAM_mDNS.uml#_G5HH-HbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHO_XbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHO_nbjEeS2Ip8eRgNunA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHO_3bjEeS2Ip8eRgNunA" name="extractRecords" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5KLQHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHPAHbjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLRHbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHPAXbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLRXbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHPAnbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHPA3bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLQnbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHPBHbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHPBXbjEeS2Ip8eRgNunA" name="rrset">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLQXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPBnbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPB3bjEeS2Ip8eRgNunA" name="RRset">
+          <modelElement href="SmartCAM_mDNS.uml#_G2cOcXbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHPCHbjEeS2Ip8eRgNunA" name="extractRecords" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5KLSHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHPCXbjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLTHbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSHPCnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLTXbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHPC3bjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHPDHbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLSnbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHPDXbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHPDnbjEeS2Ip8eRgNunA" name="rrs">
+        <modelElement href="SmartCAM_mDNS.uml#_G5KLSXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPD3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPEHbjEeS2Ip8eRgNunA" name="RRset">
+          <modelElement href="SmartCAM_mDNS.uml#_G2cOcXbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHPEXbjEeS2Ip8eRgNunA" name="getTargetFromRecord" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5NOkHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHPEnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOk3bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHPE3bjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHPFHbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOknbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHPFXbjEeS2Ip8eRgNunA" name="Name">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d03bjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHPFnbjEeS2Ip8eRgNunA" name="record">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOkXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPF3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPGHbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHPGXbjEeS2Ip8eRgNunA" comments="_eRx3gHbjEeS2Ip8eRgNunA" targetConnectionVisual="_eRx3gXbjEeS2Ip8eRgNunA" name="messagesEqual" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5NOlnbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHPGnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOmnbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHPG3bjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHPHHbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOmXbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHPHXbjEeS2Ip8eRgNunA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHPHnbjEeS2Ip8eRgNunA" name="message1">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOl3bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPH3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPIHbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSHPIXbjEeS2Ip8eRgNunA" name="message2">
+        <modelElement href="SmartCAM_mDNS.uml#_G5NOmHbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPInbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPI3bjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSHPJHbjEeS2Ip8eRgNunA" name="newQueryResponse" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5NOn3bjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSHPJXbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR43bjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSHPJnbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSHPJ3bjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR4nbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSHPKHbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSHPKXbjEeS2Ip8eRgNunA" name="records">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR4HbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPKnbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPK3bjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSHPLHbjEeS2Ip8eRgNunA" name="section">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR4XbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSHPLXbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSHPLnbjEeS2Ip8eRgNunA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSKSAHbjEeS2Ip8eRgNunA" name="setDClassForRecord" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5QR6XbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSKSAXbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR7HbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSKSAnbjEeS2Ip8eRgNunA" label="+"/>
+      <parameters xmi:id="_eSKSA3bjEeS2Ip8eRgNunA" name="record">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR6nbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSKSBHbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSKSBXbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSKSBnbjEeS2Ip8eRgNunA" name="dclass">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR63bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSKSB3bjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSKSCHbjEeS2Ip8eRgNunA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSKSCXbjEeS2Ip8eRgNunA" name="setTLLForRecord" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5QR8XbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSKSCnbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR9HbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSKSC3bjEeS2Ip8eRgNunA" label="+"/>
+      <parameters xmi:id="_eSKSDHbjEeS2Ip8eRgNunA" name="record">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR8nbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSKSDXbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSKSDnbjEeS2Ip8eRgNunA" name="Record">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eSKSD3bjEeS2Ip8eRgNunA" name="ttl">
+        <modelElement href="SmartCAM_mDNS.uml#_G5QR83bjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSKSEHbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSKSEXbjEeS2Ip8eRgNunA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eSKSEnbjEeS2Ip8eRgNunA" name="splitMessage" staticOperation="true">
+      <modelElement href="SmartCAM_mDNS.uml#_G5TVMHbjEeS2Ip8eRgNunA"/>
+      <stereotypes xmi:id="_eSKSE3bjEeS2Ip8eRgNunA" name="Array">
+        <modelElement href="SmartCAM_mDNS.uml#_G5TVNHbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eSKSFHbjEeS2Ip8eRgNunA" name="StyledElement">
+        <modelElement href="SmartCAM_mDNS.uml#_G5TVNXbjEeS2Ip8eRgNunA"/>
+      </stereotypes>
+      <visibility xmi:id="_eSKSFXbjEeS2Ip8eRgNunA" label="+"/>
+      <outParameters xmi:id="_eSKSFnbjEeS2Ip8eRgNunA">
+        <modelElement href="SmartCAM_mDNS.uml#_G5TVMnbjEeS2Ip8eRgNunA"/>
+        <type xmi:id="_eSKSF3bjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eSKSGHbjEeS2Ip8eRgNunA" name="message">
+        <modelElement href="SmartCAM_mDNS.uml#_G5TVMXbjEeS2Ip8eRgNunA"/>
+        <keywords xmi:id="_eSKSGXbjEeS2Ip8eRgNunA" keyword="final"/>
+        <type xmi:id="_eSKSGnbjEeS2Ip8eRgNunA" name="Message">
+          <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eW7dQHbjEeS2Ip8eRgNunA" name="DClass">
+    <modelElement href="SmartCAM_mDNS.uml#_G0xagXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eW7dQXbjEeS2Ip8eRgNunA" position="693.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eW7dQnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G0xagnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eW7dQ3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eW7dRHbjEeS2Ip8eRgNunA" name="Flags">
+    <modelElement href="SmartCAM_mDNS.uml#_G0xag3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eW7dRXbjEeS2Ip8eRgNunA" position="-55.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eW7dRnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G0xahHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eW7dR3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eW-gkHbjEeS2Ip8eRgNunA" name="Header">
+    <modelElement href="SmartCAM_mDNS.uml#_G0xahXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eW-gkXbjEeS2Ip8eRgNunA" position="808.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eW-gknbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G00d0HbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eW-gk3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eW-glHbjEeS2Ip8eRgNunA" name="Message">
+    <modelElement href="SmartCAM_mDNS.uml#_G00d0XbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eW-glXbjEeS2Ip8eRgNunA" position="-195.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eW-glnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G00d0nbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eW-gl3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eXBj4HbjEeS2Ip8eRgNunA" name="Name">
+    <modelElement href="SmartCAM_mDNS.uml#_G00d03bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eXBj4XbjEeS2Ip8eRgNunA" position="929.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eXBj4nbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G00d1HbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eXBj43bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eXBj5HbjEeS2Ip8eRgNunA" name="Record" associationsIn="_eSHOsHbjEeS2Ip8eRgNunA">
+    <modelElement href="SmartCAM_mDNS.uml#_G00d1XbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eXBj5XbjEeS2Ip8eRgNunA" position="692.0,-59.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eXBj5nbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G03hIHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eXBj53bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_eX-mIHbjEeS2Ip8eRgNunA" name="ResolverListener">
+    <modelElement href="SmartCAM_mDNS.uml#_G03hIXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eX-mIXbjEeS2Ip8eRgNunA" position="-399.0,277.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eX-mInbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G03hInbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eX-mI3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYEswHbjEeS2Ip8eRgNunA" name="Section">
+    <modelElement href="SmartCAM_mDNS.uml#_G03hI3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYEswXbjEeS2Ip8eRgNunA" position="1055.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYEswnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G03hJHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYEsw3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYKzYHbjEeS2Ip8eRgNunA" name="Type">
+    <modelElement href="SmartCAM_mDNS.uml#_G03hJXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYKzYXbjEeS2Ip8eRgNunA" position="-509.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYKzYnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G03hJnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYKzY3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYN2sHbjEeS2Ip8eRgNunA" name="Options">
+    <modelElement href="SmartCAM_mDNS.uml#_G1M4V3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYN2sXbjEeS2Ip8eRgNunA" position="1194.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYN2snbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G1P7oHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYN2s3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYQ6AHbjEeS2Ip8eRgNunA" name="PTRRecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G2J6kXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYQ6AXbjEeS2Ip8eRgNunA" position="-665.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYQ6AnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2J6knbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYQ6A3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYT9UHbjEeS2Ip8eRgNunA" name="Rcode">
+    <modelElement href="SmartCAM_mDNS.uml#_G2J6k3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYT9UXbjEeS2Ip8eRgNunA" position="1319.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYT9UnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2J6lHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYT9U3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYXAoHbjEeS2Ip8eRgNunA" name="TextParseException">
+    <modelElement href="SmartCAM_mDNS.uml#_G2J6lXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYXAoXbjEeS2Ip8eRgNunA" position="-881.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYXAonbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2M94HbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYXAo3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYXApHbjEeS2Ip8eRgNunA" name="Cache">
+    <modelElement href="SmartCAM_mDNS.uml#_G2ZLI3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYXApXbjEeS2Ip8eRgNunA" position="1437.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYXApnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2ZLJHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYXAp3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYaD8HbjEeS2Ip8eRgNunA" name="Credibility">
+    <modelElement href="SmartCAM_mDNS.uml#_G2ZLJXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYaD8XbjEeS2Ip8eRgNunA" position="1550.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYaD8nbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2ZLJnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYaD83bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYdHQHbjEeS2Ip8eRgNunA" name="Opcode">
+    <modelElement href="SmartCAM_mDNS.uml#_G2ZLJ3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYdHQXbjEeS2Ip8eRgNunA" position="-1003.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYdHQnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2cOcHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYdHQ3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYdHRHbjEeS2Ip8eRgNunA" name="RRset">
+    <modelElement href="SmartCAM_mDNS.uml#_G2cOcXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYdHRXbjEeS2Ip8eRgNunA" position="1697.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYdHRnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2cOcnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYdHR3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYgKkHbjEeS2Ip8eRgNunA" name="SetResponse">
+    <modelElement href="SmartCAM_mDNS.uml#_G2cOc3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYgKkXbjEeS2Ip8eRgNunA" position="-1160.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYgKknbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G2cOdHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYgKk3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYjN4HbjEeS2Ip8eRgNunA" name="AAAARecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G20o9XbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYjN4XbjEeS2Ip8eRgNunA" position="1808.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYjN4nbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G23sQHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYjN43bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYmRMHbjEeS2Ip8eRgNunA" name="ARecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G23sQXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYmRMXbjEeS2Ip8eRgNunA" position="-1300.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYmRMnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G23sQnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYmRM3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYmRNHbjEeS2Ip8eRgNunA" name="NameTooLongException">
+    <modelElement href="SmartCAM_mDNS.uml#_G23sQ3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYmRNXbjEeS2Ip8eRgNunA" position="1981.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYmRNnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G23sRHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYmRN3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYpUgHbjEeS2Ip8eRgNunA" name="ResolverConfig">
+    <modelElement href="SmartCAM_mDNS.uml#_G26vkHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYpUgXbjEeS2Ip8eRgNunA" position="-1483.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYpUgnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G26vkXbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYpUg3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYsX0HbjEeS2Ip8eRgNunA" name="SRVRecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G26vknbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYsX0XbjEeS2Ip8eRgNunA" position="-1631.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYsX0nbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G26vk3bjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYsX03bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYvbIHbjEeS2Ip8eRgNunA" name="TXTRecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G26vlHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYvbIXbjEeS2Ip8eRgNunA" position="2219.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYvbInbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G29y4HbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYvbI3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYvbJHbjEeS2Ip8eRgNunA" name="OPTRecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G3KAI3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYvbJXbjEeS2Ip8eRgNunA" position="-1785.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYvbJnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3KAJHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYvbJ3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYyecHbjEeS2Ip8eRgNunA" name="TSIG">
+    <modelElement href="SmartCAM_mDNS.uml#_G3KAJXbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYyecXbjEeS2Ip8eRgNunA" position="2377.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYyecnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3KAJnbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYyec3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYyedHbjEeS2Ip8eRgNunA" name="WireParseException">
+    <modelElement href="SmartCAM_mDNS.uml#_G3KAJ3bjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eYyedXbjEeS2Ip8eRgNunA" position="2480.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eYyednbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3KAKHbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eYyed3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eY1hwHbjEeS2Ip8eRgNunA" name="ExtendedResolver">
+    <modelElement href="SmartCAM_mDNS.uml#_G3fXUHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eY1hwXbjEeS2Ip8eRgNunA" position="-1979.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eY1hwnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3fXUXbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eY1hw3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_eY4lEHbjEeS2Ip8eRgNunA" name="Resolver">
+    <modelElement href="SmartCAM_mDNS.uml#_G3fXUnbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eY4lEXbjEeS2Ip8eRgNunA" position="2687.0,277.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eY4lEnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3fXU3bjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eY4lE3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eY4lFHbjEeS2Ip8eRgNunA" name="NSECRecord">
+    <modelElement href="SmartCAM_mDNS.uml#_G3un4HbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eY4lFXbjEeS2Ip8eRgNunA" position="-2133.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eY4lFnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3un4XbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eY4lF3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eY7oYHbjEeS2Ip8eRgNunA" name="Update">
+    <modelElement href="SmartCAM_mDNS.uml#_G3xrMHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eY7oYXbjEeS2Ip8eRgNunA" position="2849.0,299.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eY7oYnbjEeS2Ip8eRgNunA" name="Reference">
+      <modelElement href="SmartCAM_mDNS.uml#_G3xrMXbjEeS2Ip8eRgNunA"/>
+    </stereotypes>
+    <visibility xmi:id="_eY7oY3bjEeS2Ip8eRgNunA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

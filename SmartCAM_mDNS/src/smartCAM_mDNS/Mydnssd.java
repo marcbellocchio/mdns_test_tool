@@ -401,7 +401,8 @@ public class Mydnssd
                         	dclass = DClass.value("IN");
                         	System.out.println("Start Query Resource Records :\n\tName: " + SDTVWCAM_TCP_LOCAL + ", Type: " + Type.string(type) + ", DClass: " + DClass.string(dclass));
                             ExecutionTimer._start();
-                            // MBL add unicast support
+                            // MBL lookup class -> call multicastDNS lookupBase
+                            // goal is to prepare queries
                             lookup = new Lookup(new Name[]{new Name(SDTVWCAM_TCP_LOCAL)}, type, dclass  );
                             try
                             {

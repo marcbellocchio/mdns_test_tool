@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_bk7PsHbjEeS2Ip8eRgNunA">
+  <modelElement href="SmartCAM_mDNS.uml#_Dh8-4HbjEeS2Ip8eRgNunA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_eBFwIHbjEeS2Ip8eRgNunA" name="smartCAM_mDNS">
+    <modelElement href="SmartCAM_mDNS.uml#_GOePgHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eBFwIXbjEeS2Ip8eRgNunA" position="-340.0,50.0" size="324.0,111.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_eA_pgHbjEeS2Ip8eRgNunA" name="java">
+    <modelElement href="SmartCAM_mDNS.uml#_GKV9cHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eA_pgXbjEeS2Ip8eRgNunA" position="33.0,40.0" size="258.0,111.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_d9pakHbjEeS2Ip8eRgNunA" name="org">
+    <modelElement href="SmartCAM_mDNS.uml#_GKMzgHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_d9pakXbjEeS2Ip8eRgNunA" position="338.0,26.0" size="258.0,111.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_eBCs0HbjEeS2Ip8eRgNunA" name="NetworkProcessor">
+    <modelElement href="SmartCAM_mDNS.uml#_GNCsIHbjEeS2Ip8eRgNunA"/>
+    <visualProperties xmi:id="_eBCs0XbjEeS2Ip8eRgNunA" position="768.0,39.0" size="265.0,109.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

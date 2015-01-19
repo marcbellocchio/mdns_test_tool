@@ -153,6 +153,7 @@ public abstract class MulticastDNSLookupBase implements Closeable, Constants
         this.names = names;
         this.type = type;
         this.dclass = dclass;
+        // MBL creates queries
         buildQueries();
     }
     
@@ -450,6 +451,8 @@ public abstract class MulticastDNSLookupBase implements Closeable, Constants
     
     protected void buildQueries()
     {
+    	// build several queries by adding after the name provided to create the query
+    	// i.e searchPath is  [hq.k.grp., local., 254.169.in-addr.arpa., 8.e.f.ip6.arpa., 9.e.f.ip6.arpa., a.e.f.ip6.arpa., b.e.f.ip6.arpa.]
         if ((names != null) && (searchPath != null))
         {
             Message[] newQueries = new Message[] {new Message()};
@@ -481,7 +484,7 @@ public abstract class MulticastDNSLookupBase implements Closeable, Constants
                     }
                 }
             }
-            
+            // MBL queries are now updated
             queries = newQueries;
         }
     }

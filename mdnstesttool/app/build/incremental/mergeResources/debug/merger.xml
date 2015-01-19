@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res" >
+            <file
+                name="icon"
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="list_item"
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Multicast Test Tool
+                </string>
+            </file>
+        </source>
+        <source path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/luigitavolato/AndroidStudioProjects/multicast_test_tool/app/src/debug/res" />
+    </dataSet>
+
+</merger>
